@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4fa476fa.css",
+    "main.js": "/static/js/main.57985854.js",
+    "static/media/logo_vlof.png": "/static/media/logo_vlof.9b9ca0d6c42571c59701.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.4fa476fa.css.map": "/static/css/main.4fa476fa.css.map",
+    "main.57985854.js.map": "/static/js/main.57985854.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fa476fa.css",
+    "static/js/main.57985854.js"
+  ]
+}
