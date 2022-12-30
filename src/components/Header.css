@@ -1,0 +1,65 @@
+header{
+    width: 100%;
+    background-color: #74c2f2a3;
+    position: fixed;
+    display: flex;
+}
+
+.logo-header{
+    width: 300px;
+    padding-left: 30px;
+}
+
+.menu{
+    width: 80%;
+    align-self: center;
+}
+
+nav {
+    align-self: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a{
+    text-decoration: none;
+    color: #014572;
+    font-size: 24px;
+    padding: 10px;
+    border-right: 1px solid white;
+}
+
+
+@media only screen and (max-width: 880px) {
+    header{
+        display: block;
+    }
+
+    .logo-header{
+        padding-left: 0px;
+    }
+
+    .menu{
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+    nav a {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .logo-header{
+        padding-top: 10px;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+}
