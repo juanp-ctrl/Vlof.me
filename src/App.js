@@ -7,6 +7,7 @@ function App() {
     <div className="container">
         <Header />
         <img src={logo} className="App-logo" alt="logo" />
+        <p>Por: Juan Pablo Jiménez! <br></br> (Parzi)</p>
     </div>
   );
 }
